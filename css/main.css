@@ -1,0 +1,115 @@
+.nav{
+    background-color: #1A2456;
+
+}
+.nav-link{
+    color: #EFC2B3;
+}
+.nav-link:hover {
+    color: #C57F70;
+}
+.home{
+    background-image:url(../image/image01.jpg);
+    height: 95vh;
+    background-size: cover;
+    position: relative;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.656);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    color: #EFC2B3 ;
+    font-weight:900;
+}
+
+.image{
+    position: relative;
+height: 50%;
+}
+.seo{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+}
+
+.image:hover .seo{
+    opacity: 1;
+}
+.titel{
+    display: flex;
+    justify-content: space-between;
+}
+.card-title:hover {
+    color: black;
+}
+.card-text:hover {
+    color: black;
+}
+.lay{
+    position: absolute;
+    background-color: #FF8D6B;
+    color: black;
+    right: 0;
+    top: 30;
+    padding: 1px 6px;
+}
+.foo{
+    height: 90%;
+background-size: contain;
+}
+.container{
+    width: 85%;
+}
+.sec2{
+    background-image: url(../image/image12.jpg);
+    height: 75vh;
+    background-size: cover;
+    color: #1A2456;
+}
+.car img{
+    height: 300px;
+    
+}
+.firstt{
+    width: 17%;
+    margin: 30px 12px;
+}
+.footer{
+    background-color: #1A2456;
+    height: 50%;
+color: #EFC2B3;
+a{
+    color:#EFC2B3 ;
+    text-decoration: none;
+}
+}
+.seconed{
+    margin: 30px 12px;
+    
+}
+.icones i{
+width: 30px;
+height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #C57F70;
+color:  #1A2456;
+/* border: 1 solid  #C57F70; */
+border-radius: 50%;
+font-size: 20px;
+text-align: center;
+}
+.fot{
+    background-color: #C57F70;
+    border: 0;
+    margin-left: 20px;
+}
